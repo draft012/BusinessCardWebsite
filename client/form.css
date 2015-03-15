@@ -1,0 +1,86 @@
+.container {
+	padding: 40px 80px 200px 80px;
+	max-width: 840px;
+}
+
+.form {
+	width: 390px;
+	float: left;
+	margin: 0 65px 0 0;
+}
+
+.chat {
+	float: left;
+	width: 300px;
+	height: 200px;
+	overflow: auto;
+	border-bottom: 1px dashed #000;
+}
+
+.chat h3 {
+	border-bottom: 1px dashed #000;
+	font-weight: 500px;
+}
+
+.form label { 
+	float:left; 
+	width: 90px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-transform: uppercase;
+	position: relative;
+	top: 0;
+	left:0;  
+	padding-top: 20px;
+}
+
+.form input {
+	width:288px;border-bottom: 1px dashed #989895;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	background: none;
+	font-family:'Just Another Hand', Arial, Helvetica, sans-serif;
+	font-size:28px;
+	position: relative;
+	bottom: 12px;
+	left:0;
+	padding-top: 20px;
+}
+
+#submit {
+	float: left;
+}
+
+#submit input {
+	margin:20px 0 0 0;cursor: pointer;
+	background: url(../submit-btn.png) no-repeat;
+	width: 90px;
+	height: 90px;
+	border: none;
+	text-indent: -9999px;
+}
+
+.form input:hover,
+.form input:focus,
+.form label:hover + input {
+	border-bottom: 1px dashed #000000;
+	outline:none;
+}
+
+#submit input:hover {
+	background-position: 0 -90px;
+	border-bottom: none;
+}
+
+#submit input:focus {
+	border-bottom: none;
+	outline:none;
+}
+
+.chat li {
+	list-style: none;
+	font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}

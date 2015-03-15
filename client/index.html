@@ -1,0 +1,146 @@
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="favicon.png">
+	<title>Vitaliy Olikh | Front-end developer</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="form.css">
+	<link href='http://webfonts.ru/import/yanone.css' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="page-shadow">
+		<div id="page">
+			<div class="content-innertube">
+				<div id="header">
+					<h1>Віталій Оліх | Front-end Developer</h1>
+					<div class="clear"></div>
+				</div><!-- header end -->
+				<div id="text"><img src="../resume.png" alt="" title="" width="265" height="59"></div>
+				<div id="stripe"></div>
+				<div class="content-left" id="margin-right">
+					<div class="section">
+						<div class="clearfix"><h2>Personal details</h2></div>
+						<div class="item">
+							<ul id="personal-details">
+								<li><span>ПІБ:</span>Оліх В.Я.</li>
+								<li><span>Дата народження:</span>21.12.1993</li>
+								<li class="clearfix"><span>Адреса:</span>
+									<ul id="address-lines">
+										<li>Бережанська 53</li>
+										<li>Тернопіль,</li>
+										<li>Україна</li>
+									</ul>
+								</li>
+								<li><span>Телефон:</span>0671357115</li>
+								<li><span>Email:</span><a href="mailto:superolih2012@gmail.com">superolih2012@gmail.com</a></li>
+							</ul>
+						</div><!-- item end -->
+					</div><!-- section end -->
+				</div><!-- content-left end -->
+				<div class="content-right">
+					<div class="section">
+						<div class="clearfix"><h2>Education</h2></div>
+						<div class="item">
+							<h3>ТНЕУ</h3>
+							<div class="date">2012 - 2015</div>
+							<div class="description">
+								<p>Тернопольский национальный экономический университет. Факультет комп'ютерних інформаційних технологій, кафедра: Спеціалізовані комп'ютерні системи.</p>
+							</div><!-- description end -->
+						</div><!-- item end -->
+						<div class="item last">
+							<h3>БАТК</h3>
+							<div class="date">2008 - 2012</div>
+							<div class="description">
+								<p class="margin">Борщівський агротехнічний коледж – навчальний заклад І рівня акредитації, що 65 років з успіхом функціонує в системі аграрної освіти України, входить до п’ятірки кращих ВНЗ І-ІІ р.а. Спеціальність:«Експлуатація та ремонт машин і обладнання агропромислового виробництва»</p>
+							</div><!-- description end -->
+						</div><!-- item end -->
+					</div><!-- section end -->
+				</div><!-- content-right end -->
+			</div><!-- content-innertube end -->
+			<div class="clear"></div>
+				<div id="about-middle" class="clearfix">
+					<div class="content-left">
+						<div class="clearfix"><h2>My skills</h2></div>
+							<ul id="chart">
+								<li class="one">GIT</li>
+								<li class="four">Linux</li>
+								<li class=" three">PHP 5.6</li>
+								<li class="five">HTML5/CSS3</li>
+								<li class="six">JavaScript</li>
+							</ul>
+							<div id="axis"></div>
+					</div><!-- content-left end -->
+					<div class="content-right">
+						<div class="clearfix"><h2>What can I do</h2></div>
+							<ul id="check">
+								<li>Створення коду веб-сторінки за допомогою відповідної мови розмітки.</li>
+								<li>Оформлення раніше створеного коду сторінки за допомогою вбудованих засобів мови розмітки, або ж за допомогою каскадних таблиць стилів CSS</li>
+								<li>Кросбраузерна, адаптивна та валідна верстка</li>
+								<li class="last">Створення динамічник веб-сторінок використовуючи PHP, MySQL, JS</li>
+							</ul>
+					</div><!-- content-right end -->
+				</div><!-- about-middle end -->
+				<div class="container">
+									<div class="form">
+						<div class="clearfix"><h2>Add a review</h2></div>
+						<form class="new-task">
+							<p><label for="name">Name:</label></p>
+							<p><input type="name" name="name" placeholder="Type to add you name"></p>
+							<p><label for="text">Message:</label></p>
+							<p><input type="text" name="text" placeholder="Type to add you message"></p>
+							<div id="submit"><input type="submit" name="button" value="Submit"></div>
+						</form>
+					</div>
+					<div class="chat">
+					<div class="clearfix"><h2>CHAT</h2></div>
+						{{#each tasks}}
+							{{> task}}
+						{{/each}}
+					</div>
+				</div><!--container end -->
+				<div class="clear"></div>
+			<div id="footer">
+				<div id="footer-innertube">
+					<div id="footer-address">
+						<h5>Address</h5>
+						<ul>
+							<li>Бережанська 53</li>
+							<li>Тернопіль,</li>
+							<li>Україна</li>
+						</ul>
+					</div><!-- footer-address end -->
+					<div id="footer-contact">
+						<h5>Contact</h5>
+						<ul>
+							<li>067 13 57 115</li>
+							<li><a href="mailto:superolih2012@gmail.com" title="Відправ мені email">superolih2012@gmail.com</a></li>
+						</ul>
+					</div><!-- footer-contact end -->
+					<div id="footer-social">
+						<h5>Social</h5>
+						<ul>
+							<li><a href="#" title=""><img src="../twitter.png" alt="twitter" title="В розробці:)"></a></li>
+							<li><a href="#" title=""><img src="../facebook.png" alt="facebook" title="В розробці:)"></a></li>
+							<li><a href="#" title=""><img src="../flickr.png" alt="flickr" title="В розробці:)"></a></li>
+							<li><a href="#" title=""><img src="../linkedin.png" alt="linkedin" title="В розробці:)"></a></li>
+						</ul>
+					</div><!-- footer-social end -->
+					<div id="footer-resume">
+						<h5>Resume</h5>
+						<div id="download-resume" title="В розробці:)"><a href="#"></a></div>
+					</div><!-- footer-resume end -->
+					<div class="clear"></div>
+					<div id="footer-nav"></div>
+					<div class="copy">&copy; V.Y. Olikh, 2015</div>
+				</div><!-- footer-innertube end -->
+			</div><!-- footer end -->
+		</div><!-- page end -->
+	</div><!-- page-shadow end -->
+</body>
+<template name="task">
+	<li>
+		<!--<button class="delete">&times;</button>-->
+		<span class="name"><strong>{{name}}:></strong></span>
+		<span class="text">{{text}}</span>
+	</li>
+</template>
